@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render NotFoundPage with expenses 1`] = `
+<div>
+  NotFoundPage 404!
+  <NavLink
+    activeClassName="active"
+    ariaCurrent="true"
+    to="/"
+  >
+    HOME
+  </NavLink>
+</div>
+`;
