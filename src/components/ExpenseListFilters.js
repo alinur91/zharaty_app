@@ -58,8 +58,8 @@ const mapStateToProps = ({filters})=>({filters})
 
 const mapDispatchToPros = (dispatch)=> ({
   setTextFilter: text=> dispatch(setTextFilter(text)),
-  sortByDate: value=> dispatch(sortByDate()),
-  sortByAmount: value=> dispatch(sortByAmount()),
+  sortByDate: ()=> dispatch(sortByDate()),
+  sortByAmount: ()=> dispatch(sortByAmount()),
   setStartDate: startDate=> dispatch(setStartDate(startDate)),
   setEndDate: endDate=> dispatch(setEndDate(endDate)),
 })
