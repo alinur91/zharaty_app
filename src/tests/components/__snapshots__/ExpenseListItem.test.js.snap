@@ -11,9 +11,9 @@ exports[`render single expense 1`] = `
     </h3>
   </Link>
   <p>
-    109900
+    $1,099.00
     -
-    -345600000
+    December 28th, 1969
   </p>
 </div>
 `;
